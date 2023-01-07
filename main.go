@@ -1,1 +1,3 @@
+Package Main
+
 func main() {}
