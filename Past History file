@@ -1,0 +1,444 @@
+    2  mkdir git-test
+    3  ll
+    4  cd git-test/
+    5  touch index.html
+    6  touch main.css
+    7  index.js\\
+    8  touch index.js
+    9  ls
+   10  yum -y install git
+   11  git init .
+   12  ls
+   13  ll -a
+   14  git config --global user.name "ulhaqzain"
+   15  git config --global user.email "ulhaqny@gmail.com"
+   16  git config -l
+   17  git add
+   18  git status
+   19  exit
+   20  ll
+   21  ls
+   22  ll
+   23  rm -rf git-test
+   24  ll
+   25  rpm -qa | grep git
+   26  git --version
+   27  git -v
+   28  terraform -v
+   29  git -v
+   30  git --help
+   31  git config --global user.name "ulhaqzain"
+   32  git config --global user.email "ulhaqny@gmail.com"
+   33  git config -l
+   34  mkdir git-amigoscode-test
+   35  history
+   36  ls
+   37  cd git-amigoscode-test/
+   38  ll
+   39  git init .
+   40  ls
+   41  ls -a
+   42  ll -a
+   43  history
+   44  ls -a
+   45  git add
+   46  ll
+   47  touch index.html
+   48  touch index.js
+   49  touch main.css
+   50  ll
+   51  git status
+   52  git add index.html
+   53  git status
+   54  git rm --cached index.html
+   55  git status
+   56  git add index.html index.js main.css
+   57  git status
+   58  git rm --cached .
+   59  git status
+   60  git rm -r --cached .
+   61  git status
+   62  git add .
+   63  git status
+   64  git rm -r --cached .
+   65  git status
+   66  mkdir test
+   67  cd test
+   68  touch test.js
+   69  git status
+   70  git add .
+   71  git status
+   72  git add -A
+   73  ls
+   74  git status
+   75  git rm -r --cached -A
+   76  git status
+   77  git rm -A --cached
+   78  git status
+   79  cd ..
+   80  git commit -m "bootstrap project"
+   81  git status
+   82  git log
+   83  git show 4be54de780f585444725cd4ed18b1e56ea13e767
+   84  pwd
+   85  git show 4be54de780f585444725cd4ed18b1e56ea13e767
+   86  vi index.js
+   87  cat index.js
+   88  git diff
+   89  git add index.js
+   90  git status
+   91  git commit -m "added console.log"
+   92  git status
+   93  git log
+   94  git show 3a03b04274950b8d6b38ca1ee3073afdb437e2b3
+   95  vi index.js
+   96  git add index.js
+   97  git status
+   98  vi index.js
+   99  git diff
+  100  git rm --cached index.js
+  101  git diff
+  102  git status
+  103  git diff
+  104  git status
+  105  ls
+  106  git restore
+  107  git restore index.js
+  108  vi index.js
+  109  vi index.js
+  110  git add .
+  111  git status
+  112  git commit
+  113  git commit -m "fixing error"
+  114  vi index.js
+  115  git diff
+  116  git status
+  117  git restore
+  118  git restore index.js
+  119  cat index.js
+  120  git diff
+  121  git status
+  122  ls
+  123  vi main.css
+  124  git diff
+  125  git status
+  126  git diff
+  127  git add main.css
+  128  git commit -m "bdchbshdcb"
+  129  git log
+  130  git show 77c1c64aa8d3bcbf9ed240a5e93fa43a9996434f
+  131  git log
+  132  git commit --amend  -m "added body{} in main.css"
+  133  git log
+  134  git remote add origin git@github.com:ulhaqzain/learning-amigo-git.git
+  135  git branch
+  136  git branch -M main
+  137  git branch
+  138  git push -u origin main
+  139  ssh-keygen -t rsa
+  140  ls
+  141  cd /root/.ssh/
+  142  ls
+  143  ll
+  144  cat id_rsa.pub
+  145  git push -u origin main
+  146  cd /
+  147  ll
+  148  cd ~
+  149  ll
+  150  cd git-amigoscode-test/
+  151  git status
+  152  git push -u origin main
+  153  ll
+  154  vi main.go
+  155  git status
+  156  git add main.go
+  157  git status
+  158  git commit -m "added new file"
+  159  git log
+  160  git show 0df33cc63cb57a4ee8f7ea7008a248358b105a01
+  161  git status
+  162  git push
+  163  touch test.html{1..10}
+  164  ll
+  165  git add .
+  166  git status
+  167  git commit -m "adding test files 1 to 10"
+  168  git status
+  169  git push
+  170  git log
+  171  git pull
+  172  ls
+  173  ll
+  174  cat main.go
+  175  git pull
+  176  cat main.go
+  177  git branch
+  178  git branch -r
+  179  git branch -a
+  180  git branch
+  181  git branch -r
+  182  git branch -a
+  183  git branch New-branch
+  184  git branch
+  185  git branch -a
+  186  git checkout New-branch
+  187  git branch
+  188  git branch main
+  189  git checkout main
+  190  git branch
+  191  git checkout New-branch
+  192  git branch
+  193  vi utils.js
+  194  git status
+  195  git add utils.js
+  196  git status
+  197  git commit -m "added utils.js file"
+  198  git status
+  199  git log
+  200  git checkout -
+  201  git log
+  202  git branch
+  203  git checkout New-branch
+  204  git branch
+  205  git push
+  206  git push --set-upstream origin New-branch
+  207  git branch
+  208  git checkout main
+  209  git branch
+  210  git checkout -b A1branch
+  211  git branch
+  212  git push
+  213  git push --set-upstream origin A1branch
+  214  git branch
+  215  git branch to-be-deleted
+  216  git branch
+  217  git branch -d to-be-deleted
+  218  git branch
+  219  git checkout -
+  220  git brnach
+  221  git branch
+  222  git checkout New-branch
+  223  ll
+  224  git pull
+  225  ll
+  226  git pull
+  227  git branch
+  228  git checkout -
+  229  git branch
+  230  ll
+  231  git checkout -
+  232  ll
+  233  git pull
+  234  git branch
+  235  git checkout main
+  236  git pull
+  237  ll
+  238  git status
+  239  git log
+  240  git log --oneline
+  241  git log
+  242  git log --oneline
+  243  git branch
+  244  git checkout -b A2branch
+  245  git branch
+  246  ll
+  247  ls
+  248  rm -rf t*
+  249  ls
+  250  git branch
+  251  git checkout A1branch
+  252  ll
+  253  git checkout main
+  254  ll
+  255  git branch
+  256  git checkout New-branch
+  257  ls
+  258  git checkout -
+  259  git branch
+  260  git status
+  261  git add .
+  262  git status
+  263  git commit -m "deleted extra files"
+  264  git push
+  265  git checkout A2
+  266  git checkout A2branch
+  267  git push
+  268  git push --set-upstream origin A2branch
+  269  git checkout A1
+  270  git checkout A1branch
+  271  ll
+  272  git checkout New-branch
+  273  ls
+  274  git branch
+  275  git pull
+  276  git checkout A1branch
+  277  ls
+  278  git pull
+  279  git checkout A2branch
+  280  ls
+  281  git pull
+  282  git checkout main
+  283  ls
+  284  git checkout
+  285  git branch
+  286  git checkout A2
+  287  git checkout A2branch
+  288  ls
+  289  vi index.html
+  290  cat index.html
+  291  git add .
+  292  git status
+  293  git commit -m "modified the file"
+  294  git push
+  295  cat index.html git brranch
+  296  git branch
+  297  ls
+  298  vi index.html
+  299  git add index.html
+  300  git commit -m "i changed two lines"
+  301  git push
+  302  git pull
+  303  git branch
+  304  git pull
+  305  vi index.html
+  306  git push
+  307  git pull
+  308  git checkout -
+  309  git add .
+  310  git commit
+  311  git status
+  312  git push
+  313  git branch
+  314  git checkout -\
+  315  git checkout -
+  316  git branch
+  317  git branch -d A2branch
+  318  git branch -D A2branch
+  319  git push
+  320  git add .
+  321  git commit -m "updated"
+  322  git push
+  323  git pull
+  324  git branch
+  325  git branch amigobranch
+  326  git branch
+  327  git checkout amigobranch
+  328  ls
+  329  git push
+  330  git push --set-upstream origin amigobranch
+  331  git branch -D A1branch
+  332  git branch -D New-branch
+  333  git branch
+  334  pws
+  335  pwd
+  336  git pull
+  337  git branch
+  338  ls
+  339  vi index.html
+  340  git add .
+  341  git status
+  342  git commit -m "testing conflicts"
+  343  git push
+  344  git pull
+  345  vi index.html
+  346  git add index.html
+  347  git status
+  348  git commit -m "fixed the conflicts"
+  349  git status
+  350  git push
+  351  history
+  352  git push -u origin amigobranch
+  353  git pull
+  354  vi index.html
+  355  cat index.html
+  356  git pull
+  357  git config pull.ff only
+  358  git pull
+  359  vi index.
+  360  vi index.html
+  361  vi index2.html
+  362  git add .
+  363  git status
+  364  git commit -m "added new index"
+  365  git push
+  366  git pull
+  367  git branch
+  368  git checkout -
+  369  git branch -d amigobranch
+  370  git branch -D amigobranch
+  371  git branch
+  372  git status
+  373  git pull
+  374  git branch Dev
+  375  git branch
+  376  cat index.html
+  377  git checkout Dev
+  378  cat index.
+  379  cat index.html
+  380  git branch
+  381  vi index.html
+  382  git add .
+  383  git status
+  384  git commit -m "added 1.5 and 1.6"
+  385  git push
+  386  git push --set-upstream origin Dev
+  387  git checkout -
+  388  cat index.
+  389  cat index.html
+  390  git checkout -
+  391  git pull -r origin main
+  392  git branch
+  393  ls
+  394  cat index.html
+  395  vi index.html
+  396  git pull -r origin main
+  397  git branch
+  398  cat index.html
+  399  git status
+  400  git add.
+  401  git add .
+  402  git commit -m "tttt"
+  403  git push
+  404  git checkout -
+  405  git branch
+  406  git checkout -
+  407  git branch
+  408  git checkout D
+  409  git checkout Dev
+  410  git branch
+  411  vi index.html
+  412  git add
+  413  git add .
+  414  git commit -m "fffff"
+  415  git push
+  416  git pull -r origin main
+  417  git branch
+  418  git checkout main
+  419  git branch
+  420  git branch -D Dev
+  421  git branch
+  422  exit
+  423  lls
+  424  ll
+  425  cd git
+  426  cd git-amigoscode-test/
+  427  ll
+  428  git branch
+  429  git branch -D Dev
+  430  git branch
+  431  git status
+  432  git branch
+  433  git branch -D Dev
+  434  git brnach
+  435  git branch
+  436  git checkout Dev
+  437  ll
+  438  git pull
+  439  git branch
+  440  git checkout -
+  441  git branch -D Dev
+  442  exit
+  443  history
+  444  ll
+  445  cd git-amigoscode-test/
